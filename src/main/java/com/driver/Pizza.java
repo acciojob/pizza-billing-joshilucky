@@ -63,6 +63,7 @@ public class Pizza {
             if(extraCheeseAdded){
                 bill += "Extra Cheese Added: " + cheesePrice + "\n";
             }
+
             if(extraToppingsAdded){
                 if(isVeg){
                     bill += "Extra Toppings Added: " + vegToppings + "\n";
@@ -70,14 +71,12 @@ public class Pizza {
                     bill += "Extra Toppings Added: " + nonVegToppings + "\n";
                 }
             }
-           if(takeawayAdded){
-    bill += "Paperbag Added: " + takeawayPrice + "\n";
-}
 
+            if(takeawayAdded){
+                bill += "Paperbag Added: " + takeawayPrice + "\n";
             }
 
             bill += "Total Price: " + this.price + "\n";
-
             billGenerated = true;
         }
 
