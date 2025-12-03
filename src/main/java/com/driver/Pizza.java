@@ -70,8 +70,10 @@ public class Pizza {
                     bill += "Extra Toppings Added: " + nonVegToppings + "\n";
                 }
             }
-            if(takeawayAdded){
-                bill += "Takeaway Added: " + takeawayPrice + "\n"; // FIXED
+           if(takeawayAdded){
+    bill += "Paperbag Added: " + takeawayPrice + "\n";
+}
+
             }
 
             bill += "Total Price: " + this.price + "\n";
